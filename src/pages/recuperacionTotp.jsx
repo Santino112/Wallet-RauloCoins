@@ -46,7 +46,7 @@ const recuperacionTotp = () => {
                 alignItems: "center",
                 minHeight: "100vh",
                 minWidth: "100vw",
-                backgroundImage: 'url(/Images/Nuevocodigo.png)',
+                backgroundImage: 'url(/images/Nuevocodigo.png)',
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",

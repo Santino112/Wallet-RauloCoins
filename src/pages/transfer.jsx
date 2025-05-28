@@ -128,7 +128,7 @@ const Transferencia = (e) => {
             sx={{
                 minHeight: "100vh",
                 minWidth: "100vw",
-                backgroundImage: 'url(/Images/Transferencia.png)',
+                backgroundImage: 'url(/images/Transferencia.png)',
                 backgroundSize: "cover",
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "center",

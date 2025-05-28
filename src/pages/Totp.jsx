@@ -24,7 +24,7 @@ const Totp = () => {
         minHeight: "100vh",
         height: "100vh",
         minWidth: "100vw",
-        backgroundImage: 'url(/Images/Inicio.png)',
+        backgroundImage: 'url(/images/Inicio.png)',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",

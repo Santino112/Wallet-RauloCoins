@@ -67,7 +67,7 @@ const Login = () => {
         alignItems: "center",
         minHeight: "100vh",
         minWidth: "100vw",
-        backgroundImage: 'url(/Images/Inicio.png)',
+        backgroundImage: 'url(/images/Inicio.png)',
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
