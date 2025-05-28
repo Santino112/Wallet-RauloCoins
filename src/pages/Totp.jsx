@@ -101,7 +101,7 @@ const Totp = () => {
           type="primary"
           variant="contained"
           component="a"
-          href="/register"
+          src={"/login"}
           color="primary"
           sx={{
             fontSize: "1rem",

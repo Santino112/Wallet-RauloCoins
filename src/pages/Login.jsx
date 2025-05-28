@@ -277,7 +277,7 @@ const Login = () => {
             <Button
               variant="contained"
               component="a"
-              href="/register"
+              src={"/register"}
               color="primary"
               sx={{
                 fontSize: "1rem",
@@ -300,7 +300,7 @@ const Login = () => {
             <Button
               variant="contained"
               component="a"
-              href="/recuperacionTotp"
+              src={"/recuperacionTotp"}
               color="primary"
               sx={{
                 fontSize: "1rem",
