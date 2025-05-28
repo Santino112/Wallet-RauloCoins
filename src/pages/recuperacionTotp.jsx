@@ -195,7 +195,7 @@ const recuperacionTotp = () => {
                                     <Button
                                         variant="contained"
                                         component="a"
-                                        href="/login"
+                                        onClick={handleLogin}
                                         color="primary"
                                         sx={{
                                             fontSize: "1rem",
