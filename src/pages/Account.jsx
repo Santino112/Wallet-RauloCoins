@@ -50,7 +50,7 @@ const Account = () => {
     <Box component="section" sx={{
       minHeight: "100vh",
       minWidth: "100vw",
-      backgroundImage: 'url(../public/Images/Cuenta.png)',
+      backgroundImage: 'url(/Images/Cuenta.png)',
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
       backgroundPosition: "center",

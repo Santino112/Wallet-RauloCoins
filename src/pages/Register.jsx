@@ -48,7 +48,7 @@ const Register = () => {
           alignItems: "center",
           minHeight: "100vh",
           minWidth: "100vw",
-          backgroundImage: 'url(../public/Images/Registro.png)',
+          backgroundImage: 'url(/Images/Registro.png)',
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",

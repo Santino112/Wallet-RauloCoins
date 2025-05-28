@@ -60,7 +60,7 @@ const VerifyAccount = () => {
                     alignItems: "center",
                     minHeight: "100vh",
                     minWidth: "100vw",
-                    backgroundImage: 'url(../public/Images/Verificar.png)',
+                    backgroundImage: 'url(/Images/Verificar.png)',
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
