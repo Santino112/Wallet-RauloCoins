@@ -10,6 +10,10 @@ const recuperacionTotp = () => {
     const [totpSetup, setTotpSetup] = useState(null);
     const [loading, setLoading] = useState(false);
 
+    const handleLogin = () => {
+        navigate('/Login');
+    };
+
     const data = {
         username: username,
         email: email
@@ -308,7 +312,7 @@ const recuperacionTotp = () => {
                                     <Button
                                         variant="contained"
                                         component="a"
-                                        src={"/login"}
+                                        onClick={handleLogin}
                                         color="primary"
                                         sx={{
                                             fontSize: "1rem",
@@ -326,7 +330,7 @@ const recuperacionTotp = () => {
                                                 color: "#000"
                                             }
                                         }}
-                                    >Volver a login
+                                    >Volver al login
                                     </Button>
                                 </Stack>
                             </Box>

@@ -16,6 +16,14 @@ const Login = () => {
     setShowCodigo((prev) => !prev);
   };
 
+  const handleRecuperarCodigo = () => {
+    navigate('/recuperacionTotp');
+  };
+
+  const handleCuentaNueva = () => {
+    navigate('/Register');
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -212,11 +220,11 @@ const Login = () => {
                   <IconButton
                     onClick={handleToggleShowCodigo}
                     edge="end"
-                    sx={{ 
+                    sx={{
                       color: "#ffff",
                       outline: "focus",
                       boxShadow: "none",
-                      "&:focus":{
+                      "&:focus": {
                         outline: "none",
                         boxShadow: "none"
                       },
@@ -277,7 +285,7 @@ const Login = () => {
             <Button
               variant="contained"
               component="a"
-              src={"/register"}
+              onClick={handleCuentaNueva}
               color="primary"
               sx={{
                 fontSize: "1rem",
@@ -300,7 +308,7 @@ const Login = () => {
             <Button
               variant="contained"
               component="a"
-              src={"/recuperacionTotp"}
+              onClick={handleRecuperarCodigo}
               color="primary"
               sx={{
                 fontSize: "1rem",

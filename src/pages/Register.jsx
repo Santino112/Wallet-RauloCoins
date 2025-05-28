@@ -11,6 +11,10 @@ const Register = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
+  const handleLogin = () => {
+    navigate('/Login');
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
@@ -238,7 +242,7 @@ const Register = () => {
               <Button
                 variant="contained"
                 component="a"
-                src={"/login"}
+                onClick={handleLogin}
                 color="primary"
                 sx={{
                   fontSize: "1rem",

@@ -10,6 +10,10 @@ const VerifyAccount = () => {
     const [loading, setLoading] = useState(false);
     const navigate = useNavigate();
 
+    const handleLogin = () => {
+        navigate('/Login');
+    };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         setLoading(true);
@@ -226,7 +230,7 @@ const VerifyAccount = () => {
                             <Button
                                 variant="contained"
                                 component="a"
-                                src={"/login"}
+                                onClick={handleLogin}
                                 color="primary"
                                 sx={{
                                     fontSize: "1rem",

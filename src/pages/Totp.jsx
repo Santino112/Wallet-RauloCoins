@@ -7,6 +7,10 @@ const Totp = () => {
   const navigate = useNavigate();
   const totpSetup = location.state;
 
+  const handleLogin = () => {
+    navigate('/Login');
+  };
+
   if (!totpSetup) {
     message.warning('No hay configuración TOTP. Regístrate primero.');
     navigate('/');
@@ -101,7 +105,7 @@ const Totp = () => {
           type="primary"
           variant="contained"
           component="a"
-          src={"/login"}
+          onClick={handleLogin}
           color="primary"
           sx={{
             fontSize: "1rem",
@@ -118,7 +122,7 @@ const Totp = () => {
               backgroundColor: "#b7e4c7",
               color: "#000"
             }
-          }} onClick={() => navigate('/')}>
+          }}>
           Volver al login
         </Button>
       </Stack>
